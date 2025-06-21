@@ -1,0 +1,125 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+body {
+  background-color: #000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  flex-direction: column;
+  color: #fff;
+}
+
+.container {
+  width: 350px;
+  text-align: center;
+}
+
+.login-box {
+  background-color: #121212;
+  border: 1px solid #333;
+  padding: 40px 30px;
+  margin-bottom: 10px;
+  border-radius: 6px;
+}
+
+.logo {
+  font-family: 'Billabong', cursive;
+  font-size: 48px;
+  margin-bottom: 30px;
+  color: white;
+}
+
+form input {
+  width: 100%;
+  margin: 6px 0;
+  padding: 10px;
+  background-color: #262626;
+  border: 1px solid #555;
+  border-radius: 4px;
+  color: #fff;
+}
+
+form button {
+  width: 100%;
+  background-color: #0095f6;
+  color: white;
+  font-weight: bold;
+  padding: 10px;
+  border: none;
+  margin-top: 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.divider {
+  margin: 20px 0;
+  color: #aaa;
+  position: relative;
+  font-size: 13px;
+}
+
+.divider::before,
+.divider::after {
+  content: '';
+  height: 1px;
+  width: 40%;
+  background-color: #444;
+  position: absolute;
+  top: 50%;
+}
+
+.divider::before {
+  left: 0;
+}
+
+.divider::after {
+  right: 0;
+}
+
+.facebook-login {
+  display: block;
+  color: #1877f2;
+  margin-bottom: 15px;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.forgot {
+  font-size: 12px;
+  color: #b3b3b3;
+  text-decoration: none;
+}
+
+.signup-box {
+  background-color: #121212;
+  border: 1px solid #333;
+  padding: 20px;
+  font-size: 14px;
+  border-radius: 6px;
+}
+
+.signup-box a {
+  color: #0095f6;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.get-app {
+  margin-top: 20px;
+}
+
+.get-app p {
+  margin-bottom: 10px;
+}
+
+.app-links img {
+  height: 40px;
+  margin: 5px;
+  cursor: pointer;
+}
